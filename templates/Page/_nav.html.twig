@@ -1,0 +1,28 @@
+<header class="topnav wrapper">
+    <nav>
+        <span id="nav-label" hidden>Navigation</span>
+        <button id="btnOpen" class="topnav__open" aria-expanded="false" aria-labelledby="nav-label">
+            <img src="{{ asset('images/hamburger.svg') }}" alt="" width="45" height="45">
+        </button>
+        <div class="topnav__menu" role="dialog" aria-labelledby="nav-label">
+            <button id="btnClose" class="topnav__close" aria-label="Close">
+                <img src="{{ asset('images/close.svg') }}" alt="" width="45" height="45">
+            </button>
+            <ul class="topnav__links">
+                <li class="topnav__item"><a href="#auto-focus" class="topnav__link">expertises</a></li>
+                <li class="topnav__item"><a href="#presentation" class="topnav__link">présentation</a></li>
+                <li class="topnav__item"><a href="#honorary" class="topnav__link">honoraires</a></li>
+                <li class="topnav__item"><a href="#actuality" class="topnav__link">actualités</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="hero">
+        <h1 class="font-2-5">Myriam Mahjoubi</h1>
+        <p class="spacing-1 uppercase">Avocat au barreau du val d'oise</p>
+        <a href="" class="btn btn-primary flex align-center justify-center gap-1">
+            <img src="{{ asset('images/phone.svg') }}" alt="" width="21" height="26">
+            06 19 77 66 75
+        </a>
+        <a href="" class="btn btn-primary flex align-center justify-center uppercase">contactez-moi</a>
+    </section>
+</header>
