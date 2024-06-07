@@ -1,0 +1,20 @@
+<section id="contact" class="contact">
+    <div class="contact__header__title flex flex-column align-center row-1">
+        <h1 class="uppercase primary">Contact</h1>
+        <h2 class="font-2 white">Votre Situation</h2>
+        <p class="white">
+            Exposez-moi votre situation via le formulaire de droite,
+            je la consulterai avec la plus grande des attentions et
+            ne manquerais pas de revenir vers vous le plus vite possible.
+        </p>
+    </div>
+    <div class="contact__inputs">
+        {{form_start(form)}}
+            {{form_row(form.name)}}
+            {{form_row(form.email)}}
+            {{form_row(form.message)}}
+            <button type="submit" class="btn btn-primary text-center">Envoyer</button>
+        {{form_end(form)}}
+    </div>
+</div>
+</section>

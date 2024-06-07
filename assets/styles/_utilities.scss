@@ -1,0 +1,71 @@
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.gap-1 {
+    column-gap: 1em;
+}
+
+.row-1 {
+    row-gap: 1em;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.font-3 {
+    font-size: 3em;
+}
+
+.font-2-5 {
+    font-size: 2.5em;
+}
+
+.font-2 {
+    font-size: 2em;
+}
+
+.font-1-5 {
+    font-size: 1.5em;
+}
+
+.spacing-1 {
+    letter-spacing: 0.1em;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.opacity-6 {
+    opacity: .6;
+}
+
+.primary {
+    color: var(--primary);
+}
+
+.secondary {
+    color: var(--secondary);
+}
+
+.white {
+    color: var(--white);
+}
+
+.bg-secondary {
+    background-color: var(--secondary);
+}

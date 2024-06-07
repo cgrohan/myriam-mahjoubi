@@ -6,8 +6,4 @@ import './bootstrap.js';
  * which should already be in your base.html.twig.
  */
 
-import "./styles/_reset.css";
-import "./styles/_variables.css";
-import "./styles/_utilities.css";
-import "./styles/_components.css";
 import './styles/app.css';
